@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="DagCS/DagCS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DAG/Program.fs">
+    <Files>
+      <File FileName="DAG/Program.fs" Line="37" Column="111" />
+      <File FileName="DAG/Dag.fsx" Line="26" Column="72" />
+      <File FileName="DAG/DagModule.fs" Line="38" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Riccardo/Projects/DAG/DAG/Program.fs" line="19" column="12" />
+      <Breakpoint file="/Users/Riccardo/Projects/DAG/DagCS/Program.cs" line="287" column="12" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
