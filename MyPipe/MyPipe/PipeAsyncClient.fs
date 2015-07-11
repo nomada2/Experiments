@@ -1,4 +1,4 @@
-﻿module PipeAsyncClient
+﻿module PipeAsyncClient 
    
     open System
     open System.IO
@@ -7,23 +7,31 @@
     open System.Text
     open System.ComponentModel
     open System.Threading
+    open System.Threading.Tasks
 
-    let  sendToTPL task = 
-         Async.StartAsTask <| async { return task }
-
+    let inline awaitPlainTask (task: Task) = 
+    // rethrow exception from preceding task if it fauled
+        let continuation (t : Task) : unit =
+            match t.IsFaulted with
+            | true -> raise t.Exception
+            | arg -> ()
+        task.ContinueWith continuation |> Async.AwaitTask
+        
+    let inline startAsPlainTask (work : Async<unit>) = Task.Factory.StartNew(fun () -> work |> Async.RunSynchronously)
+ 
 
     type BaseStream(stream:Stream) =
         member s.AsyncWriteBytes (bytes : byte []) =
             async {
                 do! stream.AsyncWrite(BitConverter.GetBytes bytes.Length, 0, 4)
                 do! stream.AsyncWrite(bytes, 0, bytes.Length)
-                stream.FlushAsync() |> Async.StartAsTask 
+                return stream.FlushAsync() |> awaitPlainTask 
             }
 
         member s.AsyncReadBytes(length : int) =
             let rec readSegment buf offset remaining =
                 async {
-                    let! read = stream.ReadAsync(buf, offset, remaining)
+                    let! read = stream.AsyncRead(buf, offset, remaining)
                     if read < remaining then
                         return! readSegment buf (offset + read) (remaining - read)
                     else
@@ -38,9 +46,9 @@
 
         member s.AsyncReadBytes() =
             async {
-                let! lengthArr = stream.AsyncReadBytes 4
+                let! lengthArr = s.AsyncReadBytes 4
                 let length = BitConverter.ToInt32(lengthArr, 0)
-                return! stream.AsyncReadBytes length
+                return! s.AsyncReadBytes length
             }
 
     type ClientAsyncPipe(namePipe:string, serverName:string option, readCallback:(string -> unit) option)=

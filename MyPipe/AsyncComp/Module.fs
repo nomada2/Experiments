@@ -148,12 +148,12 @@ let throttlingAgent limit = MailboxProcessor.Start(fun inbox -> async {
         |> Async.Ignore })
 
 let w = throttlingAgent 5 
-for i in 0 .. 20 do 
-  async { printfn "Starting %d" i
-          do! Async.Sleep(1000)
-          printfn "Done %d" i  }
-  |> Enqueue
-  |> w.Post
+//for i in 0 .. 20 do 
+//  async { printfn "Starting %d" i
+//          do! Async.Sleep(1000)
+//          printfn "Done %d" i  }
+//  |> Enqueue
+//  |> w.Post
   
 
 let pack = fun xs -> box xs

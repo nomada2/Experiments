@@ -54,10 +54,9 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="Program.fs" />
-    <None Include="Script.fsx" />
     <None Include="App.config" />
     <Compile Include="Module.fs" />
+    <None Include="Script.fsx" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
