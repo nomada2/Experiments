@@ -63,6 +63,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compression", "Compression"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelCompressionCS", "ParallelCompressionCS\ParallelCompressionCS.csproj", "{0AE6A969-ACC8-4B5D-9777-A935901FDF73}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSChannel", "FSChannel\FSChannel\FSChannel.fsproj", "{EFE5DFDA-EDA0-445C-A8F4-8AF7C6E4D4F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
