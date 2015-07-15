@@ -37,7 +37,6 @@ namespace ParallelCompressionCS
                     {
                         using (GZipStream streamCompressed = new GZipStream(compressedDataStream, CompressionMode.Compress))
                         {
-
                             // write chunk in the compressed stream
                             streamCompressed.Write(data, 0, data.Length);
                         }
@@ -106,16 +105,17 @@ namespace ParallelCompressionCS
 
                     byte[] uncompressedData = new byte[chunkSize];
                     byte[] compressedData = new byte[storedSize];
-                    long position = inputStream.Position;
-                    inputStream.Read(compressedData, 0, compressedData.Length);
-
+       
+                   var yy =  inputStream.Read(compressedData, 0, compressedData.Length);
+                 
                     // uncompressed the chunk
                     using (MemoryStream uncompressedDataStream = new MemoryStream(compressedData))
                     using (GZipStream streamUncompressed = new GZipStream(uncompressedDataStream, CompressionMode.Decompress))
                     {
 
                         // read the chunk in the compressed stream
-                        streamUncompressed.Read(uncompressedData, 0, uncompressedData.Length);
+                      var r =  streamUncompressed.Read(uncompressedData, 0, uncompressedData.Length);
+                      var t = r;
                     }
                     // write the uncompressed chunk
                     outputStream.Write(uncompressedData, 0, uncompressedData.Length);
@@ -123,8 +123,8 @@ namespace ParallelCompressionCS
                     // subtruct the chunk size from the file size
                     sourceLength -= chunkSize;
 
-                    if (sourceLength < chunkSize)
-                        chunkSize = sourceLength;
+                    //if (sourceLength < chunkSize)
+                    //    chunkSize = sourceLength;
                 }
             }
             finally

@@ -61,6 +61,8 @@
     <Content Include="packages.config" />
     <None Include="Printing.fsx" />
     <None Include="StaticTyped.fsx" />
+    <None Include="RssFeed.fsx" />
+    <None Include="FibonacciAgent.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">

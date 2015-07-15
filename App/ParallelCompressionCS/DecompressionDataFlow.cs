@@ -134,9 +134,15 @@ namespace ParallelCompressionCS
             using (MemoryStream uncompressedDataStream = new MemoryStream(compressionDetails.Bytes))
             using (GZipStream streamUncompressed = new GZipStream(uncompressedDataStream, CompressionMode.Decompress))
             {
-
-                // read the chunk in the compressed stream
-               await streamUncompressed.ReadAsync(compressedData, 0, compressedData.Length);
+                int index = 0;
+                int count = compressedData.Length;
+                while (index < compressedData.Length - 1)
+                {
+                    // read the chunk in the compressed stream
+                    var bytesRead = await streamUncompressed.ReadAsync(compressedData, index, count);
+                    index += bytesRead;
+                    count -= bytesRead;
+                }
             }
 
             compressionDetails = new DecompressionDetails
