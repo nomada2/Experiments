@@ -16,12 +16,12 @@ let main argv =
     
     let timeToStop = new ManualResetEvent(false)
     let keyPresses = keyPress().ToObservable()
-
-    keyPresses
-    |> Observable.filter(fun c -> c.IsSome)
-    |> Observable.GroupBy(fun k -> k.Value)
-    |> 
-
+//
+//    keyPresses
+//    |> Observable.filter(fun c -> c.IsSome)
+//    |> Observable.GroupBy(fun k -> k.Value)
+//    |> 
+//
 
 
 

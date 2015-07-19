@@ -7,7 +7,7 @@ open System.Reactive.Linq
 type rxBuilder() =    
     member this.Bind ((xs:'a IObservable), (f:'a -> 'b IObservable)) =
         Observable.SelectMany (xs, f)
-    member this.Delay f = Observable.Defer f
+    member this.Delay (f:'a -> 'b IObservable) = Observable.Defer f
     member this.Return x = Observable.Return x
     member this.ReturnFrom xs = xs
     member this.Combine (xs:'a IObservable, ys: 'a IObservable) =

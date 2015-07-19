@@ -71,6 +71,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlowObservable", "DataF
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ParallelCompression", "ParallelCompression\ParallelCompression.fsproj", "{8DBBE099-E2EE-4105-B3FF-7BC126869BC9}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.AsyncExtensions", "FSharp.AsyncExtensions\src\FSharp.AsyncExtensions.fsproj", "{EDE1812B-5A62-410A-9553-02499CF29317}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSDataFlow", "FSDataFlow\FSDataFlow.fsproj", "{004F7392-63AD-44FF-B230-3A5B4F154E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFLowTests", "DataFLowTests\DataFLowTests.csproj", "{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D8E21F1E-4F4A-4CE7-9763-2BEBEA45BA43}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +394,36 @@ Global
 		{8DBBE099-E2EE-4105-B3FF-7BC126869BC9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{8DBBE099-E2EE-4105-B3FF-7BC126869BC9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8DBBE099-E2EE-4105-B3FF-7BC126869BC9}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EDE1812B-5A62-410A-9553-02499CF29317}.Release|x86.ActiveCfg = Release|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{004F7392-63AD-44FF-B230-3A5B4F154E97}.Release|x86.ActiveCfg = Release|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -396,5 +439,7 @@ Global
 		{0AE6A969-ACC8-4B5D-9777-A935901FDF73} = {75BB447E-B8F6-4C43-AD4B-856BF7BC11D1}
 		{633DA7AC-F050-4259-9918-C9C42717D94A} = {F2CDE1D7-75FC-4015-84E6-917E8B0FD1F7}
 		{8DBBE099-E2EE-4105-B3FF-7BC126869BC9} = {75BB447E-B8F6-4C43-AD4B-856BF7BC11D1}
+		{004F7392-63AD-44FF-B230-3A5B4F154E97} = {F2CDE1D7-75FC-4015-84E6-917E8B0FD1F7}
+		{114A8DE9-25EB-4434-BF60-4E78E4FCCBA5} = {F2CDE1D7-75FC-4015-84E6-917E8B0FD1F7}
 	EndGlobalSection
 EndGlobal
