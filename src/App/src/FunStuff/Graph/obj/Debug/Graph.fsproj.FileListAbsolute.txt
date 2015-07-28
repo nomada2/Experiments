@@ -1,0 +1,14 @@
+C:\Git\Experiments\MyPipe\Graph\bin\Debug\Graph.XML
+C:\Git\Experiments\MyPipe\Graph\bin\Debug\Graph.dll
+C:\Git\Experiments\MyPipe\Graph\bin\Debug\Graph.pdb
+C:\Git\Experiments\MyPipe\Graph\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\MyPipe\Graph\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\MyPipe\Graph\obj\Debug\Graph.dll
+C:\Git\Experiments\MyPipe\Graph\obj\Debug\Graph.pdb
+E:\Experiments\App\src\FunStuff\Graph\bin\Debug\Graph.XML
+E:\Experiments\App\src\FunStuff\Graph\bin\Debug\Graph.dll
+E:\Experiments\App\src\FunStuff\Graph\bin\Debug\Graph.pdb
+E:\Experiments\App\src\FunStuff\Graph\bin\Debug\FSharp.Core.dll
+E:\Experiments\App\src\FunStuff\Graph\bin\Debug\FSharp.Core.xml
+E:\Experiments\App\src\FunStuff\Graph\obj\Debug\Graph.dll
+E:\Experiments\App\src\FunStuff\Graph\obj\Debug\Graph.pdb

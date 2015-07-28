@@ -1,0 +1,8 @@
+C:\Git\Experiments\Alghorithms\Alghorithms\bin\Debug\Alghorithms.exe.config
+C:\Git\Experiments\Alghorithms\Alghorithms\bin\Debug\Alghorithms.XML
+C:\Git\Experiments\Alghorithms\Alghorithms\bin\Debug\Alghorithms.exe
+C:\Git\Experiments\Alghorithms\Alghorithms\bin\Debug\Alghorithms.pdb
+C:\Git\Experiments\Alghorithms\Alghorithms\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\Alghorithms\Alghorithms\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\Alghorithms\Alghorithms\obj\Debug\Alghorithms.exe
+C:\Git\Experiments\Alghorithms\Alghorithms\obj\Debug\Alghorithms.pdb

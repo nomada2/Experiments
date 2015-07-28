@@ -1,0 +1,16 @@
+C:\Git\Experiments\MyPipe\ImageProcessing\bin\Debug\ImageProcessing.exe.config
+C:\Git\Experiments\MyPipe\ImageProcessing\bin\Debug\ImageProcessing.XML
+C:\Git\Experiments\MyPipe\ImageProcessing\bin\Debug\ImageProcessing.exe
+C:\Git\Experiments\MyPipe\ImageProcessing\bin\Debug\ImageProcessing.pdb
+C:\Git\Experiments\MyPipe\ImageProcessing\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\MyPipe\ImageProcessing\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\MyPipe\ImageProcessing\obj\Debug\ImageProcessing.exe
+C:\Git\Experiments\MyPipe\ImageProcessing\obj\Debug\ImageProcessing.pdb
+E:\Experiments\App\src\FunStuff\ImageProcessing\bin\Debug\ImageProcessing.exe.config
+E:\Experiments\App\src\FunStuff\ImageProcessing\bin\Debug\ImageProcessing.XML
+E:\Experiments\App\src\FunStuff\ImageProcessing\bin\Debug\ImageProcessing.exe
+E:\Experiments\App\src\FunStuff\ImageProcessing\bin\Debug\ImageProcessing.pdb
+E:\Experiments\App\src\FunStuff\ImageProcessing\bin\Debug\FSharp.Core.dll
+E:\Experiments\App\src\FunStuff\ImageProcessing\bin\Debug\FSharp.Core.xml
+E:\Experiments\App\src\FunStuff\ImageProcessing\obj\Debug\ImageProcessing.exe
+E:\Experiments\App\src\FunStuff\ImageProcessing\obj\Debug\ImageProcessing.pdb

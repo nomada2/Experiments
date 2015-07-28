@@ -1,0 +1,13 @@
+/Users/Riccardo/Projects/DAG/DAG/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/Riccardo/Projects/DAG/DAG/bin/Debug/DAG.exe.mdb
+/Users/Riccardo/Projects/DAG/DAG/bin/Debug/DAG.exe
+/Users/Riccardo/Projects/DAG/DAG/obj/x86/Debug/DAG.exe
+/Users/Riccardo/Projects/DAG/DAG/obj/x86/Debug/DAG.exe.mdb
+/Users/ricky/Projects/DAG/DAG/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/ricky/Projects/DAG/DAG/obj/x86/Debug/DAG.exe
+/Users/ricky/Projects/DAG/DAG/obj/x86/Debug/DAG.exe.mdb
+/Users/Riccardo/ToDo/DAG_Blog/DAG/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/Riccardo/ToDo/DAG_Blog/DAG/bin/Debug/DAG.exe.mdb
+/Users/Riccardo/ToDo/DAG_Blog/DAG/bin/Debug/DAG.exe
+/Users/Riccardo/ToDo/DAG_Blog/DAG/obj/x86/Debug/DAG.exe
+/Users/Riccardo/ToDo/DAG_Blog/DAG/obj/x86/Debug/DAG.exe.mdb

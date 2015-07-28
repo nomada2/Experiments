@@ -1,0 +1,37 @@
+Results on an 8-core (hyperthreading) machine:
+1. Primes:
+	4x speedup for n = 10000000
+
+2. PI:
+	perform better than C# versions
+	8x speedup with Parallel.ForEach, 5.5x speedup with PLINQ
+
+3. NQueens:
+	perform better than C# versions.
+	8x speedup when pre-placing the first two queens (N = 14).
+
+4. Sudoku:
+	Failed to parallelize its depth-first search algorithm.
+
+5. Strassens:
+	perform better than C# version, but scalability seems to be strange.
+	7x speedup for the standard algorithm, 6x speedup for Strassen's algorithm.
+
+6. BootyDivision:
+	perform better than C# versions.
+	Some parallelism consideration with Booty Division Problem.
+	Speeup is 3.5x on a 4-core machine.
+	It's possible to further optimize it.
+
+7. Geonames:
+	Speedups are marginal due to sequential IO operation.
+	Two versions using PLINQ and Parallel.ForEach are comparable for seq.
+
+8. Mersenne:
+	Speedups are comparable between PSeq version and Parallel.For version
+	They are 3.5x on a quadcore machine.
+
+9. EditDistance:
+	Use parallel wavefront algorithm.
+	3x faster than C# version.
+	Speedup is around 3x.

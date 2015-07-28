@@ -1,0 +1,5 @@
+/Users/Riccardo/Downloads/Experiments/App/ReactiveX/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.fs
+/Users/Riccardo/Downloads/Experiments/App/ReactiveX/bin/Debug/System.Reactive.Core.dll
+/Users/Riccardo/Downloads/Experiments/App/ReactiveX/bin/Debug/System.Reactive.Interfaces.dll
+/Users/Riccardo/Downloads/Experiments/App/ReactiveX/bin/Debug/System.Reactive.Linq.dll
+/Users/Riccardo/Downloads/Experiments/App/ReactiveX/bin/Debug/FSharp.Core.dll

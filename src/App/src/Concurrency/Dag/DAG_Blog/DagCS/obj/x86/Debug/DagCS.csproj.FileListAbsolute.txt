@@ -1,0 +1,5 @@
+C:\Projects\DAG\DagCS\bin\Debug\DagCS.exe
+C:\Projects\DAG\DagCS\bin\Debug\DagCS.pdb
+C:\Projects\DAG\DagCS\obj\x86\Debug\DagCS.csprojResolveAssemblyReference.cache
+C:\Projects\DAG\DagCS\obj\x86\Debug\DagCS.exe
+C:\Projects\DAG\DagCS\obj\x86\Debug\DagCS.pdb

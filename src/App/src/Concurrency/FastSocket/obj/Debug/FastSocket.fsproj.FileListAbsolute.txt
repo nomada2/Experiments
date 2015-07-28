@@ -1,0 +1,7 @@
+C:\Git\Experiments\MyPipe\FastSocket\bin\Debug\FastSocket.XML
+C:\Git\Experiments\MyPipe\FastSocket\bin\Debug\FastSocket.dll
+C:\Git\Experiments\MyPipe\FastSocket\bin\Debug\FastSocket.pdb
+C:\Git\Experiments\MyPipe\FastSocket\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\MyPipe\FastSocket\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\MyPipe\FastSocket\obj\Debug\FastSocket.dll
+C:\Git\Experiments\MyPipe\FastSocket\obj\Debug\FastSocket.pdb

@@ -1,0 +1,1 @@
+C:\Git\Experiments\App\FunWithDataAnalysis\obj\x86\Debug\FunWithDataAnalysis.fsprojResolveAssemblyReference.cache
