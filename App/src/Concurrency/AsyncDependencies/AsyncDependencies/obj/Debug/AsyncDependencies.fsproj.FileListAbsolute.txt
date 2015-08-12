@@ -1,0 +1,16 @@
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.exe.config
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.XML
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.exe
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.pdb
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\obj\Debug\AsyncDependencies.exe
+C:\Git\Experiments\AsyncDependencies\AsyncDependencies\obj\Debug\AsyncDependencies.pdb
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.exe.config
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.XML
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.exe
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\bin\Debug\AsyncDependencies.pdb
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\bin\Debug\FSharp.Core.dll
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\bin\Debug\FSharp.Core.xml
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\obj\Debug\AsyncDependencies.exe
+E:\Experiments\App\src\Concurrency\AsyncDependencies\AsyncDependencies\obj\Debug\AsyncDependencies.pdb

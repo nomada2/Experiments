@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FastSocket</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:SocketEvt.setBuffer(System.ArraySegment{System.Byte},System.Net.Sockets.SocketAsyncEventArgs)">
+<summary>
+ Prepares the arguments by setting the buffer.
+</summary>
+</member>
+<member name="M:SocketEvt.asyncDo``1(Microsoft.FSharp.Core.FSharpFunc{System.Net.Sockets.SocketAsyncEventArgs,System.Boolean},Microsoft.FSharp.Core.FSharpFunc{System.Net.Sockets.SocketAsyncEventArgs,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{System.Net.Sockets.SocketAsyncEventArgs,``0})">
+<summary>
+ Wraps the Socket.xxxAsync logic into F# async logic.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:SocketEvt">
+
+</member>
+</members>
+</doc>

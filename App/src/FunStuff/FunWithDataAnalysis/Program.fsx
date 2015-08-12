@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿#load "../../../packages/FsLab.0.2.7/FsLab.fsx"
+=======
+﻿#load "../../App/packages/FsLab.0.2.7/FsLab.fsx"
+>>>>>>> origin/master
 open System
 open System.IO
 open FSharp.Data
@@ -45,14 +49,22 @@ let nameSum = usaData
 let totalNames = nameSum |> Seq.sumBy(fun (n,c) -> c) // since 1910
  
 //See the most popular names descending
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 let nameAverage = nameSum 
                     |> Seq.map(fun (n,c) -> n,c,float c/ float totalNames)
                     |> Seq.sortBy(fun (n,c,a) -> -a - 1.)
                     |> Seq.toArray  
                   
+<<<<<<< HEAD
 nameAverage |> Seq.last
 nameAverage |> Seq.head      
+=======
+                    //|> Seq.last
+                    //|> Seq.head      
+>>>>>>> origin/master
 
 
 //make a function to see names, split by gender
@@ -67,8 +79,11 @@ let genderSearch name =
         |> Seq.map(fun (n,c) -> n, c, float c/float nameSum) 
         |> Seq.toArray
 
+<<<<<<< HEAD
 let nameToAnalyze = "Thomas"
 
+=======
+>>>>>>> origin/master
 genderSearch "Thomas"
 
 //make a function to see names, split by year of birth
@@ -87,7 +102,11 @@ let ageSearch name =
 ageSearch "Jason" |> Array.sortBy(fun (_,_,p) -> -p) |> Seq.take 5
 
 //Chart the year of birth
+<<<<<<< HEAD
 let chartData = ageSearch "Jason" // Siri
+=======
+let chartData = ageSearch "Bryony" // Siri
+>>>>>>> origin/master
                     |> Seq.map(fun (y,c,p) -> y, c)
                     |> Seq.sortBy(fun (y,c) -> y)
                     |> Chart.Line

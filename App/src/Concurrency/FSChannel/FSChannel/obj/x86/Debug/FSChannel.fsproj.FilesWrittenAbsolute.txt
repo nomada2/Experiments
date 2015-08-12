@@ -1,0 +1,5 @@
+/Users/Riccardo/Projects/FSChannel/FSChannel/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/Riccardo/Projects/FSChannel/FSChannel/bin/Debug/FSChannel.exe.mdb
+/Users/Riccardo/Projects/FSChannel/FSChannel/bin/Debug/FSChannel.exe
+/Users/Riccardo/Projects/FSChannel/FSChannel/obj/x86/Debug/FSChannel.exe
+/Users/Riccardo/Projects/FSChannel/FSChannel/obj/x86/Debug/FSChannel.exe.mdb

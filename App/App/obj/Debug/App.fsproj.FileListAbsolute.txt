@@ -1,0 +1,16 @@
+C:\Git\Experiments\App\App\bin\Debug\App.exe.config
+C:\Git\Experiments\App\App\bin\Debug\App.XML
+C:\Git\Experiments\App\App\bin\Debug\App.exe
+C:\Git\Experiments\App\App\bin\Debug\App.pdb
+C:\Git\Experiments\App\App\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\App\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\App\obj\Debug\App.exe
+C:\Git\Experiments\App\App\obj\Debug\App.pdb
+E:\Experiments\App\App\bin\Debug\App.exe.config
+E:\Experiments\App\App\bin\Debug\App.XML
+E:\Experiments\App\App\bin\Debug\App.exe
+E:\Experiments\App\App\bin\Debug\App.pdb
+E:\Experiments\App\App\bin\Debug\FSharp.Core.dll
+E:\Experiments\App\App\bin\Debug\FSharp.Core.xml
+E:\Experiments\App\App\obj\Debug\App.exe
+E:\Experiments\App\App\obj\Debug\App.pdb

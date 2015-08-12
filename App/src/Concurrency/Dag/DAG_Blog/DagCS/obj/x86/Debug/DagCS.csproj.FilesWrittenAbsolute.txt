@@ -1,0 +1,15 @@
+/Users/Riccardo/Projects/DAG/DagCS/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Riccardo/Projects/DAG/DagCS/bin/Debug/DagCS.exe.mdb
+/Users/Riccardo/Projects/DAG/DagCS/bin/Debug/DagCS.exe
+/Users/Riccardo/Projects/DAG/DagCS/obj/x86/Debug/DagCS.exe
+/Users/Riccardo/Projects/DAG/DagCS/obj/x86/Debug/DagCS.exe.mdb
+/Users/ricky/Projects/DAG/DagCS/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/ricky/Projects/DAG/DagCS/bin/Debug/DagCS.exe.mdb
+/Users/ricky/Projects/DAG/DagCS/bin/Debug/DagCS.exe
+/Users/ricky/Projects/DAG/DagCS/obj/x86/Debug/DagCS.exe
+/Users/ricky/Projects/DAG/DagCS/obj/x86/Debug/DagCS.exe.mdb
+/Users/Riccardo/ToDo/DAG_Blog/DagCS/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Riccardo/ToDo/DAG_Blog/DagCS/bin/Debug/DagCS.exe.mdb
+/Users/Riccardo/ToDo/DAG_Blog/DagCS/bin/Debug/DagCS.exe
+/Users/Riccardo/ToDo/DAG_Blog/DagCS/obj/x86/Debug/DagCS.exe
+/Users/Riccardo/ToDo/DAG_Blog/DagCS/obj/x86/Debug/DagCS.exe.mdb

@@ -1,0 +1,6 @@
+C:\Projects\DAG\DAG\obj\x86\Debug\DAG.exe
+C:\Projects\DAG\DAG\bin\Debug\DAG.exe
+C:\Projects\DAG\DAG\bin\Debug\DAG.pdb
+C:\Projects\DAG\DAG\bin\Debug\FSharp.Core.dll
+C:\Projects\DAG\DAG\bin\Debug\FSharp.Core.xml
+C:\Projects\DAG\DAG\obj\x86\Debug\DAG.pdb
