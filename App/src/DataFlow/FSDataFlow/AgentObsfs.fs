@@ -1,7 +1,47 @@
 ﻿
 module Observable 
         open System
+        open System.Threading
+        open System.Threading.Tasks
         open System.Collections.Generic
+        open System.Reactive
+        open System.Reactive.Subjects
+
+
+        let applyTask(task:Task<'a>) : IObservable<'a> =
+            let subject = new AsyncSubject<'a>()
+            let continuation (t:Task<'a>) : unit = 
+                match t.IsFaulted with
+                | true -> subject.OnError(t.Exception)
+                | _ ->  subject.OnNext(t.Result)
+                        subject.OnCompleted()
+            ignore <| task.ContinueWith continuation 
+            subject :> IObservable<'a>
+
+
+        let task = Task.Factory.StartNew(new Func<int>(fun () -> Thread.Sleep 1000; 8))
+        (applyTask task).Subscribe({ new IObserver<int> with
+                                    member x.OnNext(a) = printfn "Received %d" a
+                                    member x.OnCompleted() = printfn "Completed"
+                                    member x.OnError(ex) = () }) |> ignore
+
+
+        let applyAsync(task:Async<'a>) : IObservable<'a> =
+            let subject = new AsyncSubject<'a>()            
+            Async.StartWithContinuations(task, (fun con -> subject.OnNext(con)
+                                                           subject.OnCompleted()),
+                                               (fun exn -> subject.OnError(exn)),
+                                               (fun cnl -> ()))
+            subject :> IObservable<'a>
+        
+        let operation = async{ do! Async.Sleep 1000; 
+                               return 8 }
+
+        (operation |> applyAsync).Subscribe(
+                    { new IObserver<int> with
+                            member x.OnNext(a) = printfn "Received %d" a
+                            member x.OnCompleted() = printfn "Completed"
+                            member x.OnError(ex) = () }) |> ignore
 
         module Subject =
             /// Subject state maintained inside of the mailbox loop
