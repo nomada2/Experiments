@@ -35,7 +35,7 @@ invoices |> Seq.iter(printfn "%A")
 open System
 open FSharp.Charting
 
-type Stocks = CsvProvider<"MSFT.csv">
+type Stocks = CsvProvider<"Data/MSFT.csv">
 let msft = Stocks.Load("http://ichart.finance.yahoo.com/table.csv?s=MSFT")
 
 // Look at the most recent row. Note the 'Date' property

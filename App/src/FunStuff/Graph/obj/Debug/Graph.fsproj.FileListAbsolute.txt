@@ -12,3 +12,10 @@ E:\Experiments\App\src\FunStuff\Graph\bin\Debug\FSharp.Core.dll
 E:\Experiments\App\src\FunStuff\Graph\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\FunStuff\Graph\obj\Debug\Graph.dll
 E:\Experiments\App\src\FunStuff\Graph\obj\Debug\Graph.pdb
+C:\Git\Experiments\App\src\FunStuff\Graph\bin\Debug\Graph.XML
+C:\Git\Experiments\App\src\FunStuff\Graph\bin\Debug\Graph.dll
+C:\Git\Experiments\App\src\FunStuff\Graph\bin\Debug\Graph.pdb
+C:\Git\Experiments\App\src\FunStuff\Graph\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\FunStuff\Graph\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\FunStuff\Graph\obj\Debug\Graph.dll
+C:\Git\Experiments\App\src\FunStuff\Graph\obj\Debug\Graph.pdb

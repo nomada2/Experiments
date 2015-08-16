@@ -1,0 +1,8 @@
+C:\Git\Experiments\App\src\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Git\Experiments\App\src\Sudoku\bin\Debug\Sudoku.XML
+C:\Git\Experiments\App\src\Sudoku\bin\Debug\Sudoku.exe
+C:\Git\Experiments\App\src\Sudoku\bin\Debug\Sudoku.pdb
+C:\Git\Experiments\App\src\Sudoku\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\Sudoku\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\Sudoku\obj\Debug\Sudoku.exe
+C:\Git\Experiments\App\src\Sudoku\obj\Debug\Sudoku.pdb

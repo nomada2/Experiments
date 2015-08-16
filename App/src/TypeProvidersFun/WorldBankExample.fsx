@@ -2,7 +2,7 @@
 // ----------------------------------------------------------------------------
 // Load the charting library
 
-#load "packages/FSharp.Charting/FSharp.Charting.fsx"
+#load "../../packages/FSharp.Charting.0.90.12/FSharp.Charting.fsx"
 
 open FSharp.Charting
 open FSharp.Charting.ChartTypes
@@ -10,8 +10,8 @@ open FSharp.Charting.ChartTypes
 // ----------------------------------------------------------------------------
 // Reference the provider for the World Bank and explore the data
 
-#r "packages/FSharp.Data/lib/net40/FSharp.Data.dll"
-
+#r "../../packages/FSharp.Data.2.2.5/lib/Net40/FSharp.Data.dll"
+#r "../../packages/FSharp.Data.TypeProviders.0.0.1/lib/net40/FSharp.Data.TypeProviders.dll"
 
 let data = FSharp.Data.WorldBankData.GetDataContext()
 
@@ -37,8 +37,13 @@ Chart.Combine([ for c in countries -> Chart.Line (c.Indicators.``Population ages
 
 
 Chart.Pie
-   [ for c in countries -> c.Name,  c.Indicators.``Population, total``.GetValueAtOrZero(2001) ]
+   [ for c in countries -> c.Name,  c.Indicators.``Population, total``.TryGetValueAt(2001).Value ]
 
+
+let defaultZero v =
+    match v with
+    | None -> 0.
+    | Some(n) -> n
 
 let countries1 = 
   [ data.Countries.India; data.Countries.Uganda; data.Countries.Ghana;
@@ -48,8 +53,8 @@ let countries1 =
 
 let pointdata = 
     [ for country in countries1 ->
-          let y = country.Indicators.``Adolescent fertility rate (births per 1,000 women ages 15-19)``.GetValueAtOrZero(2005)
-          let x = country.Indicators.``Primary completion rate, female (% of relevant age group)``.GetValueAtOrZero(2005)
+          let y = defaultZero (country.Indicators.``Adolescent fertility rate (births per 1,000 women ages 15-19)``.TryGetValueAt(2005))
+          let x = defaultZero (country.Indicators.``Primary completion rate, female (% of relevant age group)``.TryGetValueAt(2005))
           x,y ]
                  
 
@@ -65,7 +70,7 @@ data.Countries.Australia.Indicators.``Population, total``
 // ----------------------------------------------------------------------------
 // Work with time series data
 
-#load "packages/Deedle/Deedle.fsx"
+//#load "packages/Deedle/Deedle.fsx"
 
 
 data.Countries.``United States``.Indicators.``Health expenditure, total (% of GDP)``

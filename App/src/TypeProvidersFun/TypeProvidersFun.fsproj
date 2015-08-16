@@ -65,9 +65,14 @@
   <ItemGroup>
     <Compile Include="Program.fs" />
     <None Include="App.config" />
+    <None Include="Data\AMZN.csv" />
+    <None Include="Data\APLL.csv" />
+    <None Include="Data\GOOG.csv" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
-    <None Include="Msft.csv" />
+    <None Include="Data\Msft.csv" />
+    <None Include="WebServiceExample.fsx" />
+    <None Include="WorldBankExample.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Charting">

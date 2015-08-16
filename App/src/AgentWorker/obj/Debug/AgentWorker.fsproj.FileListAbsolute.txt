@@ -1,0 +1,8 @@
+C:\Git\Experiments\App\src\AgentWorker\bin\Debug\AgentWorker.exe.config
+C:\Git\Experiments\App\src\AgentWorker\bin\Debug\AgentWorker.XML
+C:\Git\Experiments\App\src\AgentWorker\bin\Debug\AgentWorker.exe
+C:\Git\Experiments\App\src\AgentWorker\bin\Debug\AgentWorker.pdb
+C:\Git\Experiments\App\src\AgentWorker\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\AgentWorker\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\AgentWorker\obj\Debug\AgentWorker.exe
+C:\Git\Experiments\App\src\AgentWorker\obj\Debug\AgentWorker.pdb

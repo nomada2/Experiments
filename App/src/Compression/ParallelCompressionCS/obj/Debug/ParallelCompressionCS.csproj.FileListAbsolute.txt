@@ -22,3 +22,13 @@ E:\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\System.Thread
 E:\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.csprojResolveAssemblyReference.cache
 E:\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.exe
 E:\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.pdb
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompressionCS.exe.config
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompressionCS.exe
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompressionCS.pdb
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.dll
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.pdb
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.xml
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.csprojResolveAssemblyReference.cache
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.exe
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.pdb

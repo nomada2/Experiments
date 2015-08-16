@@ -19,3 +19,13 @@ E:\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlen
 E:\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.csproj.GenerateResource.Cache
 E:\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.exe
 E:\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.pdb
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\bin\Debug\DataFlowImageBlender.exe.config
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\bin\Debug\DataFlowImageBlender.exe
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\bin\Debug\DataFlowImageBlender.pdb
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.csprojResolveAssemblyReference.cache
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.Form1.resources
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.Properties.Resources.resources
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.csproj.GenerateResource.Cache
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.exe
+C:\Git\Experiments\App\src\DataFlow\DataFlowImageBlender\obj\Debug\DataFlowImageBlender.pdb

@@ -14,3 +14,11 @@ E:\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\FSharp.Core.dll
 E:\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\MyPipe\SharedMemory\obj\Debug\SharedMemory.exe
 E:\Experiments\App\src\MyPipe\SharedMemory\obj\Debug\SharedMemory.pdb
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\SharedMemory.exe.config
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\SharedMemory.XML
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\SharedMemory.exe
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\SharedMemory.pdb
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\obj\Debug\SharedMemory.exe
+C:\Git\Experiments\App\src\MyPipe\SharedMemory\obj\Debug\SharedMemory.pdb

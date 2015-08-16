@@ -16,3 +16,12 @@ E:\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\System.Xaml.dll
 E:\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\FunStuff\GameOfLife\obj\Debug\GameOfLife.exe
 E:\Experiments\App\src\FunStuff\GameOfLife\obj\Debug\GameOfLife.pdb
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\GameOfLife.exe.config
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\GameOfLife.XML
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\GameOfLife.exe
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\GameOfLife.pdb
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\System.Xaml.dll
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\obj\Debug\GameOfLife.exe
+C:\Git\Experiments\App\src\FunStuff\GameOfLife\obj\Debug\GameOfLife.pdb

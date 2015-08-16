@@ -12,3 +12,10 @@ E:\Experiments\App\src\Compression\ParallelCompression\bin\Debug\FSharp.Core.dll
 E:\Experiments\App\src\Compression\ParallelCompression\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\Compression\ParallelCompression\obj\Debug\ParallelCompression.dll
 E:\Experiments\App\src\Compression\ParallelCompression\obj\Debug\ParallelCompression.pdb
+C:\Git\Experiments\App\src\Compression\ParallelCompression\bin\Debug\ParallelCompression.XML
+C:\Git\Experiments\App\src\Compression\ParallelCompression\bin\Debug\ParallelCompression.dll
+C:\Git\Experiments\App\src\Compression\ParallelCompression\bin\Debug\ParallelCompression.pdb
+C:\Git\Experiments\App\src\Compression\ParallelCompression\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\Compression\ParallelCompression\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\Compression\ParallelCompression\obj\Debug\ParallelCompression.dll
+C:\Git\Experiments\App\src\Compression\ParallelCompression\obj\Debug\ParallelCompression.pdb

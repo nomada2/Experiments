@@ -14,3 +14,11 @@ E:\Experiments\App\src\MyPipe\MyPipe\bin\Debug\FSharp.Core.dll
 E:\Experiments\App\src\MyPipe\MyPipe\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\MyPipe\MyPipe\obj\Debug\MyPipe.exe
 E:\Experiments\App\src\MyPipe\MyPipe\obj\Debug\MyPipe.pdb
+C:\Git\Experiments\App\src\MyPipe\MyPipe\bin\Debug\MyPipe.exe.config
+C:\Git\Experiments\App\src\MyPipe\MyPipe\bin\Debug\MyPipe.XML
+C:\Git\Experiments\App\src\MyPipe\MyPipe\bin\Debug\MyPipe.exe
+C:\Git\Experiments\App\src\MyPipe\MyPipe\bin\Debug\MyPipe.pdb
+C:\Git\Experiments\App\src\MyPipe\MyPipe\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\MyPipe\MyPipe\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\MyPipe\MyPipe\obj\Debug\MyPipe.exe
+C:\Git\Experiments\App\src\MyPipe\MyPipe\obj\Debug\MyPipe.pdb

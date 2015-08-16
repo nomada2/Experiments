@@ -5,3 +5,9 @@ E:\Experiments\App\src\Concurrency\MapReduceWords\bin\Debug\MapReduceWords.exe
 E:\Experiments\App\src\Concurrency\MapReduceWords\bin\Debug\MapReduceWords.pdb
 E:\Experiments\App\src\Concurrency\MapReduceWords\obj\Debug\MapReduceWords.exe
 E:\Experiments\App\src\Concurrency\MapReduceWords\obj\Debug\MapReduceWords.pdb
+C:\Git\Experiments\App\src\Concurrency\MapReduceWords\bin\Debug\MapReduceWords.exe.config
+C:\Git\Experiments\App\src\Concurrency\MapReduceWords\bin\Debug\MapReduceWords.exe
+C:\Git\Experiments\App\src\Concurrency\MapReduceWords\bin\Debug\MapReduceWords.pdb
+C:\Git\Experiments\App\src\Concurrency\MapReduceWords\obj\Debug\MapReduceWords.csprojResolveAssemblyReference.cache
+C:\Git\Experiments\App\src\Concurrency\MapReduceWords\obj\Debug\MapReduceWords.exe
+C:\Git\Experiments\App\src\Concurrency\MapReduceWords\obj\Debug\MapReduceWords.pdb

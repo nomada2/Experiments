@@ -1,0 +1,4 @@
+/Users/Riccardo/Projects/ocamlproblems/FunWithDataAnalysis/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/Riccardo/Projects/ocamlproblems/FunWithDataAnalysis/bin/Debug/FSharp.Data.dll
+/Users/ricky/Downloads/FunWithDataAnalysis/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/ricky/Downloads/FunWithDataAnalysis/bin/Debug/FSharp.Data.dll

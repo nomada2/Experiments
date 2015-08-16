@@ -19,3 +19,10 @@ E:\Experiments\App\src\FunStuff\SudokuLib\bin\Debug\FSharp.Core.dll
 E:\Experiments\App\src\FunStuff\SudokuLib\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\FunStuff\SudokuLib\obj\Debug\SudokuLib.dll
 E:\Experiments\App\src\FunStuff\SudokuLib\obj\Debug\SudokuLib.pdb
+C:\Git\Experiments\App\src\FunStuff\SudokuLib\bin\Debug\SudokuLib.XML
+C:\Git\Experiments\App\src\FunStuff\SudokuLib\bin\Debug\SudokuLib.dll
+C:\Git\Experiments\App\src\FunStuff\SudokuLib\bin\Debug\SudokuLib.pdb
+C:\Git\Experiments\App\src\FunStuff\SudokuLib\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\FunStuff\SudokuLib\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\FunStuff\SudokuLib\obj\Debug\SudokuLib.dll
+C:\Git\Experiments\App\src\FunStuff\SudokuLib\obj\Debug\SudokuLib.pdb
