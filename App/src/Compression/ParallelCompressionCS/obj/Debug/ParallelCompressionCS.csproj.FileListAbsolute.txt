@@ -25,12 +25,19 @@ E:\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompr
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompressionCS.exe.config
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompressionCS.exe
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompressionCS.pdb
+<<<<<<< HEAD
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\FSharp.Core.dll
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.dll
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\System.Threading.Tasks.Dataflow.dll
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.pdb
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.xml
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\FSharp.Core.xml
+=======
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.dll
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.pdb
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\ParallelCompression.xml
+C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\bin\Debug\System.Threading.Tasks.Dataflow.xml
+>>>>>>> origin/master
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.csprojResolveAssemblyReference.cache
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.exe
 C:\Git\Experiments\App\src\Compression\ParallelCompressionCS\obj\Debug\ParallelCompressionCS.pdb

@@ -2,6 +2,36 @@
 <doc>
 <assembly><name>FSDataFlow</name></assembly>
 <members>
+<<<<<<< HEAD
+=======
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+>>>>>>> origin/master
 <member name="M:Observable.Subject.t`1.Next(`0)">
 <summary>
  Raises OnNext in all the observers

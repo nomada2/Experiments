@@ -1,0 +1,7 @@
+C:\Git\Experiments\App\src\Concurrency\Helpers\bin\Debug\Helpers.XML
+C:\Git\Experiments\App\src\Concurrency\Helpers\bin\Debug\Helpers.dll
+C:\Git\Experiments\App\src\Concurrency\Helpers\bin\Debug\Helpers.pdb
+C:\Git\Experiments\App\src\Concurrency\Helpers\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\Concurrency\Helpers\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\Concurrency\Helpers\obj\Debug\Helpers.dll
+C:\Git\Experiments\App\src\Concurrency\Helpers\obj\Debug\Helpers.pdb
