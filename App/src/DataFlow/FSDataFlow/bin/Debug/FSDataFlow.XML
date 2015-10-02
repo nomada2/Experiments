@@ -2,21 +2,6 @@
 <doc>
 <assembly><name>FSDataFlow</name></assembly>
 <members>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="M:Observable.Subject.t`1.Next(`0)">
 <summary>
  Raises OnNext in all the observers
@@ -32,128 +17,20 @@
  Raises OnCompleted in all the observers
 </summary>
 </member>
-<member name="">
-
-</member>
 <member name="T:Observable.Subject.t`1">
 <summary>
  Type t that implements IObservable&lt;&apos;T&gt; and IObserver&lt;&apos;T&gt;
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
 </member>
 <member name="T:Observable.Subject.Message">
 <summary>
  Messages required for the mailbox loop
 </summary>
 </member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="T:Observable.Subject.State">
 <summary>
  Subject state maintained inside of the mailbox loop
 </summary>
-</member>
-<member name="T:Observable.Subject">
-
-</member>
-<member name="T:Observable">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Program.AgentStuff">
-
-</member>
-<member name="T:Program">
-
 </member>
 </members>
 </doc>

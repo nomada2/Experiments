@@ -14,3 +14,11 @@ E:\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\FSharp.Core.dll
 E:\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\FunStuff\L-System\L-System\obj\Debug\L_System.exe
 E:\Experiments\App\src\FunStuff\L-System\L-System\obj\Debug\L_System.pdb
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\L_System.exe.config
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\L_System.XML
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\L_System.exe
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\L_System.pdb
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\obj\Debug\L_System.exe
+C:\Git\Experiments\App\src\FunStuff\L-System\L-System\obj\Debug\L_System.pdb

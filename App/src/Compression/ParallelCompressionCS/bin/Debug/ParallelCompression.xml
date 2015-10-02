@@ -2,38 +2,5 @@
 <doc>
 <assembly><name>ParallelCompression</name></assembly>
 <members>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:ParallelCompression.Compression">
-
-</member>
 </members>
 </doc>

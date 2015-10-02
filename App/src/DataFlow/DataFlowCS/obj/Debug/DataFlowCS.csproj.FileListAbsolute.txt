@@ -13,3 +13,10 @@ E:\Experiments\App\src\DataFlow\DataFlowCS\bin\Debug\System.Threading.Tasks.Data
 E:\Experiments\App\src\DataFlow\DataFlowCS\obj\Debug\DataFlowCS.csprojResolveAssemblyReference.cache
 E:\Experiments\App\src\DataFlow\DataFlowCS\obj\Debug\DataFlowCS.exe
 E:\Experiments\App\src\DataFlow\DataFlowCS\obj\Debug\DataFlowCS.pdb
+C:\Git\Experiments\App\src\DataFlow\DataFlowCS\bin\Debug\DataFlowCS.exe.config
+C:\Git\Experiments\App\src\DataFlow\DataFlowCS\bin\Debug\DataFlowCS.exe
+C:\Git\Experiments\App\src\DataFlow\DataFlowCS\bin\Debug\DataFlowCS.pdb
+C:\Git\Experiments\App\src\DataFlow\DataFlowCS\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Git\Experiments\App\src\DataFlow\DataFlowCS\obj\Debug\DataFlowCS.csprojResolveAssemblyReference.cache
+C:\Git\Experiments\App\src\DataFlow\DataFlowCS\obj\Debug\DataFlowCS.exe
+C:\Git\Experiments\App\src\DataFlow\DataFlowCS\obj\Debug\DataFlowCS.pdb

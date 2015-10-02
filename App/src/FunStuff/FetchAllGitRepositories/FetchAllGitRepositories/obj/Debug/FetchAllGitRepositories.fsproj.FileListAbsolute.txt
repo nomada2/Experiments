@@ -18,3 +18,13 @@ E:\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\
 E:\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FSharp.Data.dll
 E:\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FSharp.Data.xml
 E:\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FetchAllGitRepositories.XML
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\obj\Debug\FetchAllGitRepositories.exe
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\obj\Debug\FetchAllGitRepositories.pdb
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FetchAllGitRepositories.exe.config
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FetchAllGitRepositories.exe
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FetchAllGitRepositories.pdb
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FSharp.Data.dll
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FSharp.Data.xml
+C:\Git\Experiments\App\src\FunStuff\FetchAllGitRepositories\FetchAllGitRepositories\bin\Debug\FSharp.Core.xml

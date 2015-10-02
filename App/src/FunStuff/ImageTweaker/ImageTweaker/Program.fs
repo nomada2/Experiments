@@ -33,7 +33,46 @@ let convertImageTo3D (imagePath:string) =
 let imageTweaked = combine "davinci.bmp" |> convertImageTo3D 
 show <| imageTweaked
 
+let tridiagonal (n:int) (c1:double array) (c2:double array) (c3:double array) (derivate:double array) =
+    
+    let tol = 1.0e-12
+    let mutable isSingualr = (c2.[0] < tol)
 
+    for i = 1 to n - 1  do //&& (not isSingualr) do
+        c1.[i] <- c1.[i] / c2.[i - 1]
+        c2.[i] <- c2.[i] - c1.[i] * c3.[i - 1]
+        isSingualr <- (c2.[i] < tol)
+        derivate.[i] <- derivate.[i] - c1.[i] * derivate.[i - 1]
+
+    if (not isSingualr) then
+        derivate.[n - 1] <- derivate.[n - 1] / c2.[n - 1]
+        for i = n - 2 downto 0 do
+            derivate.[i] <- (derivate.[i] - c3.[i] * derivate.[i + 1]) / c2.[i]
+        Some(derivate)
+    else
+        None
+
+
+let secondDerivatives (xarray:double array) (yarray:double array) = //: double array =
+
+    let n = xarray.Length
+    let c1 = Array.zeroCreate<double> n
+    let c2 = Array.zeroCreate<double> n
+    let c3= Array.zeroCreate<double> n
+    let dx = Array.zeroCreate<double> n
+    let derivate = Array.zeroCreate<double> n
+
+    for i = 1 to n - 1 do
+        dx.[i] <- xarray.[i] - xarray.[i - 1]
+        derivate.[i] <- (yarray.[i] - yarray.[i - 1]) / dx.[i]
+
+    for i = 1 to n - 1 do
+        c2.[i - 1] <- 2.
+        c3.[i - 1] <- dx.[i + 1] / (dx.[i] + dx.[i + 1])
+        c1.[i - 1] <- 1. - c3.[i - 1]
+        derivate.[i - 1] <- 6. * (derivate.[i - 1] - derivate.[i]) / (dx.[i] - dx.[i + 1])
+
+    tridiagonal (n - 2) c1 c2 c3 derivate
 
 
 

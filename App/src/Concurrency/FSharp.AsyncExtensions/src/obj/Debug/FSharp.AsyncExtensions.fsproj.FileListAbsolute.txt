@@ -12,3 +12,10 @@ E:\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\bin\Debug\FSharp.C
 E:\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\obj\Debug\FSharp.AsyncExtensions.dll
 E:\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\obj\Debug\FSharp.AsyncExtensions.pdb
+C:\Git\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\bin\Debug\FSharp.AsyncExtensions.XML
+C:\Git\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\bin\Debug\FSharp.AsyncExtensions.dll
+C:\Git\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\bin\Debug\FSharp.AsyncExtensions.pdb
+C:\Git\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\obj\Debug\FSharp.AsyncExtensions.dll
+C:\Git\Experiments\App\src\Concurrency\FSharp.AsyncExtensions\src\obj\Debug\FSharp.AsyncExtensions.pdb

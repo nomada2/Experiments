@@ -44,3 +44,16 @@ E:\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\System.Reactive.PlatformSer
 E:\Experiments\App\src\DataFlow\FSDataFlow\obj\Debug\FSDataFlow.fsprojResolveAssemblyReference.cache
 E:\Experiments\App\src\DataFlow\FSDataFlow\obj\Debug\FSDataFlow.exe
 E:\Experiments\App\src\DataFlow\FSDataFlow\obj\Debug\FSDataFlow.pdb
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\FSDataFlow.exe.config
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\FSDataFlow.XML
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\FSDataFlow.exe
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\FSDataFlow.pdb
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\System.Reactive.Core.xml
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\System.Reactive.Interfaces.xml
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\System.Reactive.Linq.xml
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\obj\Debug\FSDataFlow.fsprojResolveAssemblyReference.cache
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\obj\Debug\FSDataFlow.exe
+C:\Git\Experiments\App\src\DataFlow\FSDataFlow\obj\Debug\FSDataFlow.pdb

@@ -14,3 +14,11 @@ E:\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\FSharp.Core.
 E:\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\FSharp.Core.xml
 E:\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\obj\Debug\ImageTweaker.exe
 E:\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\obj\Debug\ImageTweaker.pdb
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\ImageTweaker.exe.config
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\ImageTweaker.XML
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\ImageTweaker.exe
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\ImageTweaker.pdb
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\FSharp.Core.dll
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\bin\Debug\FSharp.Core.xml
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\obj\Debug\ImageTweaker.exe
+C:\Git\Experiments\App\src\FunStuff\ImageTweaker\ImageTweaker\obj\Debug\ImageTweaker.pdb

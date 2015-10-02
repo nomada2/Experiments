@@ -2,15 +2,6 @@
 <doc>
 <assembly><name>ImageProcessing</name></assembly>
 <members>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="M:ImagePipeline.Extensions.GaussianRandom.NextInteger">
 <summary>
  Samples the distribution and returns a random integer. Returns 
@@ -21,12 +12,6 @@
 <summary>
  Samples the distribution; returns a random sample from a normal distribution
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
 </member>
 <member name="M:ImagePipeline.Extensions.Bitmap.AddNoise(System.Drawing.Bitmap,System.Double)">
 <summary>
@@ -43,29 +28,11 @@
  Creates a grayscale image from a color image
 </summary>
 </member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="M:ImagePipeline.Extensions.Extensions.Async.WithResult.Static``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Control.FSharpAsync{``0})">
 <summary>
  Constructs workflow that triggers the specified event 
  on the GUI thread when the wrapped async completes 
 </summary>
-</member>
-<member name="">
-
 </member>
 <member name="M:ImagePipeline.Extensions.Extensions.synchronize``2(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit}},``1})">
 <summary>
@@ -73,24 +40,12 @@
  context as where the operation was started
 </summary>
 </member>
-<member name="T:ImagePipeline.Extensions.Extensions">
-
-</member>
 <member name="M:ImagePipeline.Extensions.Observable.guard``1(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
 <summary>
  Creates an observable that calls the specified function after someone
  subscribes to it (useful for waiting using &apos;let!&apos; when we need to start
  operation after &apos;let!&apos; attaches handler)
 </summary>
-</member>
-<member name="T:ImagePipeline.Extensions.Observable">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
 </member>
 <member name="P:ImagePipeline.Extensions.Utilities.Trend.Slope">
 <summary>
@@ -106,12 +61,6 @@
 <summary>
  Predicts a y value given any x value using the formula y = slope * x + intercept.
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
 </member>
 <member name="M:ImagePipeline.Extensions.Utilities.MakeRandomSeed">
  <summary>
@@ -221,9 +170,6 @@
  <param name="throwOnCancel">true if an execption should be thrown in response to a cancellation request.</param>
  <returns>true if operation completed normally false if the user canceled the operation</returns>
 </member>
-<member name="">
-
-</member>
 <member name="M:ImagePipeline.Extensions.Utilities.DoCpuIntensiveOperationSimple(System.Double)">
  <summary>
  Simulates a CPU-intensive operation on a single core. The operation will use approximately 100% of a
@@ -256,252 +202,6 @@
 <summary>
  Format and print elapsed time returned by Stopwatch
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="T:ImagePipeline.Extensions.Utilities">
-
-</member>
-<member name="T:ImagePipeline.Extensions">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.FSharp.Collections.PSeqModule">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Program">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Show">
-
 </member>
 </members>
 </doc>

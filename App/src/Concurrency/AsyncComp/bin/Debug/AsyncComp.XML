@@ -2,193 +2,10 @@
 <doc>
 <assembly><name>AsyncComp</name></assembly>
 <members>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="M:AsyncModule.Observable.fromAsync``1(Microsoft.FSharp.Control.FSharpAsync{``0})">
 <summary>
  Generates an observable from an Async&lt;_&gt;.
 </summary>
-</member>
-<member name="T:AsyncModule.Observable">
-
-</member>
-<member name="">
-
 </member>
 <member name="M:AsyncModule.Fsnip.createCounterEvent(System.Int32)">
 <summary>
@@ -202,9 +19,6 @@
  when implementing the Subscribe method of IObservable interface.
 </summary>
 </member>
-<member name="T:AsyncModule.Fsnip">
-
-</member>
 <member name="M:AsyncModule.Async.Parallel3b``3(Microsoft.FSharp.Control.FSharpAsync{``0},Microsoft.FSharp.Control.FSharpAsync{``1},Microsoft.FSharp.Control.FSharpAsync{``2})">
 <summary>
  Alternative version of Async.Parallel3
@@ -215,9 +29,6 @@
  Alternative version of Async.Parallel2
 </summary>
 </member>
-<member name="">
-
-</member>
 <member name="M:AsyncModule.Async.Parallel3``3(Microsoft.FSharp.Control.FSharpAsync{``0},Microsoft.FSharp.Control.FSharpAsync{``1},Microsoft.FSharp.Control.FSharpAsync{``2})">
 <summary>
  Run three async&apos;s in parallel in the thread pool and return the results together, asynchronously
@@ -227,15 +38,6 @@
 <summary>
  Run two async&apos;s in parallel in the thread pool and return the results together, asynchronously
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="T:AsyncModule.Async">
-
-</member>
-<member name="T:AsyncModule">
-
 </member>
 </members>
 </doc>

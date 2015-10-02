@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dag", "Dag", "{9BF154EE-417F-47F9-8C50-D2536CFF9636}"
 EndProject
@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D8E21F
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\PackMe.ps1 = .nuget\PackMe.ps1
+		.nuget\PowerPack.psm1 = .nuget\PowerPack.psm1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrency", "Concurrency", "{FF8E765F-90AA-4E2C-B7B2-26BBF8F19C94}"
@@ -84,7 +86,6 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Testing", "src\Testing\Test
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App", "App\App.fsproj", "{0A6547A7-080B-4656-9241-43F34443173D}"
 EndProject
-<<<<<<< HEAD
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpLib", "src\FSharpLib\FSharpLib.fsproj", "{CADFBBD0-764E-4C5F-B265-DDCAC257505B}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sudoku", "src\Sudoku\Sudoku.fsproj", "{B45D64D2-6B3F-4FD3-B8B7-D9DE3B9383AB}"
@@ -95,8 +96,6 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Helpers", "src\Concurrency\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProvidersFun", "src\TypeProvidersFun\TypeProvidersFun.fsproj", "{200AB498-7469-4F22-BAD6-87E48142F402}"
 EndProject
-=======
->>>>>>> origin/master
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,7 +416,6 @@ Global
 		{0A6547A7-080B-4656-9241-43F34443173D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{0A6547A7-080B-4656-9241-43F34443173D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0A6547A7-080B-4656-9241-43F34443173D}.Release|x86.ActiveCfg = Release|Any CPU
-<<<<<<< HEAD
 		{CADFBBD0-764E-4C5F-B265-DDCAC257505B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CADFBBD0-764E-4C5F-B265-DDCAC257505B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CADFBBD0-764E-4C5F-B265-DDCAC257505B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -468,8 +466,6 @@ Global
 		{200AB498-7469-4F22-BAD6-87E48142F402}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{200AB498-7469-4F22-BAD6-87E48142F402}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{200AB498-7469-4F22-BAD6-87E48142F402}.Release|x86.ActiveCfg = Release|Any CPU
-=======
->>>>>>> origin/master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -503,11 +499,8 @@ Global
 		{B2D852D5-91CE-42EC-B9E8-24A4D96E50FA} = {FADDED66-AF28-4218-A178-3F0DCAE4B87C}
 		{733887E2-D0FA-482E-B528-063941986F7A} = {FADDED66-AF28-4218-A178-3F0DCAE4B87C}
 		{EDDA3735-D818-4A95-B65F-2938FF288079} = {FADDED66-AF28-4218-A178-3F0DCAE4B87C}
-<<<<<<< HEAD
 		{AA978C80-A875-4DB2-80FF-3B4758DBFE2D} = {FF8E765F-90AA-4E2C-B7B2-26BBF8F19C94}
 		{8AA55FEA-D75C-404F-B670-DC65F3F3F8C6} = {FF8E765F-90AA-4E2C-B7B2-26BBF8F19C94}
 		{200AB498-7469-4F22-BAD6-87E48142F402} = {FADDED66-AF28-4218-A178-3F0DCAE4B87C}
-=======
->>>>>>> origin/master
 	EndGlobalSection
 EndGlobal
