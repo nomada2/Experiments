@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 open System
 open System.Reactive
 open System.Reactive.Subjects
@@ -104,18 +102,9 @@ type internal ThrottlingAgentMessage =
   | Work of Async<unit>
    
 
-
-=======
->>>>>>> origin/master
 [<EntryPoint>]
 let main argv = 
-
     printfn "%A" argv
-
     System.Console.ReadLine() |> ignore
-
-<<<<<<< HEAD
     0
-=======
-    0
->>>>>>> origin/master
+    

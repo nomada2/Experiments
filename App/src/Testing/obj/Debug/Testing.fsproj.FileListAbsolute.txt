@@ -24,6 +24,5 @@ C:\Git\Experiments\App\src\Testing\bin\Debug\Testing.exe
 C:\Git\Experiments\App\src\Testing\bin\Debug\Testing.pdb
 C:\Git\Experiments\App\src\Testing\bin\Debug\FSharp.Core.dll
 C:\Git\Experiments\App\src\Testing\bin\Debug\FSharp.Core.xml
-C:\Git\Experiments\App\src\Testing\bin\Debug\nunit.framework.xml
 C:\Git\Experiments\App\src\Testing\obj\Debug\Testing.exe
 C:\Git\Experiments\App\src\Testing\obj\Debug\Testing.pdb

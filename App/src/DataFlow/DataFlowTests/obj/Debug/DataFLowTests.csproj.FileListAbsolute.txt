@@ -43,10 +43,6 @@ E:\Experiments\App\src\DataFlow\DataFlowTests\obj\Debug\DataFLowTests.pdb
 C:\Git\Experiments\App\src\DataFlow\DataFlowTests\bin\Debug\DataFLowTests.exe.config
 C:\Git\Experiments\App\src\DataFlow\DataFlowTests\bin\Debug\DataFLowTests.exe
 C:\Git\Experiments\App\src\DataFlow\DataFlowTests\bin\Debug\DataFLowTests.pdb
-C:\Git\Experiments\App\src\DataFlow\DataFlowTests\bin\Debug\System.Reactive.Core.xml
-C:\Git\Experiments\App\src\DataFlow\DataFlowTests\bin\Debug\System.Reactive.Interfaces.xml
-C:\Git\Experiments\App\src\DataFlow\DataFlowTests\bin\Debug\System.Reactive.Linq.xml
-C:\Git\Experiments\App\src\DataFlow\DataFlowTests\bin\Debug\System.Reactive.PlatformServices.xml
 C:\Git\Experiments\App\src\DataFlow\DataFlowTests\obj\Debug\DataFLowTests.csprojResolveAssemblyReference.cache
 C:\Git\Experiments\App\src\DataFlow\DataFlowTests\obj\Debug\DataFLowTests.exe
 C:\Git\Experiments\App\src\DataFlow\DataFlowTests\obj\Debug\DataFLowTests.pdb

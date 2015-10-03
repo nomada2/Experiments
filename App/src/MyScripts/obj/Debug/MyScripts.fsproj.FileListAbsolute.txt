@@ -34,11 +34,5 @@ C:\Git\Experiments\App\src\MyScripts\bin\Debug\MyScripts.exe
 C:\Git\Experiments\App\src\MyScripts\bin\Debug\MyScripts.pdb
 C:\Git\Experiments\App\src\MyScripts\bin\Debug\FSharp.Core.dll
 C:\Git\Experiments\App\src\MyScripts\bin\Debug\FSharp.Core.xml
-C:\Git\Experiments\App\src\MyScripts\bin\Debug\Hopac.pdb
-C:\Git\Experiments\App\src\MyScripts\bin\Debug\Hopac.xml
-C:\Git\Experiments\App\src\MyScripts\bin\Debug\Hopac.Core.pdb
-C:\Git\Experiments\App\src\MyScripts\bin\Debug\Hopac.Core.xml
-C:\Git\Experiments\App\src\MyScripts\bin\Debug\Hopac.Platform.pdb
-C:\Git\Experiments\App\src\MyScripts\obj\Debug\MyScripts.fsprojResolveAssemblyReference.cache
 C:\Git\Experiments\App\src\MyScripts\obj\Debug\MyScripts.exe
 C:\Git\Experiments\App\src\MyScripts\obj\Debug\MyScripts.pdb

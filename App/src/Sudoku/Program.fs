@@ -79,7 +79,6 @@ let rec bruteFrce f sol = function
 let size = 3
 
 let size2 = size * size
-<<<<<<< HEAD
 
 
 let table =
@@ -92,7 +91,6 @@ let table =
         new String(cs)
 
         
-=======
 //
 //let rec search m x y f accu = match x, y with
 //  | x, y when x = size2 -> search m 0 (y + 1) f accu
@@ -130,7 +128,6 @@ let table =
 //    |> Array.map (fun b -> Array.map (fun x -> Convert.ToInt32 (x:string)) b )
 //
 //input problem
->>>>>>> origin/master
 
 let display x = 
     x |> Array.iter (fun b -> 
@@ -170,7 +167,6 @@ let rec solve x y (grid:int[][]) =
             Array.set grid.[x] y 0;
           )               
           
-<<<<<<< HEAD
 //
 //let table =  
 //    let lines = problem.Split("\n".ToCharArray())
@@ -189,22 +185,20 @@ let rec solve x y (grid:int[][]) =
 //                    elif Char.IsPunctuation(c) then yield None }
 
 
-=======
 //solve 0 0 (input table)
 
-let table =  
-    let lines = problem.Split("\n".ToCharArray())
-    let item (c:char) = 
-                 match c with
-                 | c when Char.IsDigit(c) -> Some(int(c))
-                 | '.' | _ -> None
+//let table =  
+//    let lines = problem.Split("\n".ToCharArray())
+//    let item (c:char) = 
+//                 match c with
+//                 | c when Char.IsDigit(c) -> Some(int(c))
+//                 | '.' | _ -> None
 
 //    let table = // (x,y,value)
 //        lines  |> Array.mapi(fun index c -> 
-    seq {
-            for line in lines do
-                for c in line do 
-                    if Char.IsDigit(c) then yield Some( int(c))
-                    elif Char.IsPunctuation(c) then yield None }
->>>>>>> origin/master
+//    seq {
+//            for line in lines do
+//                for c in line do 
+//                    if Char.IsDigit(c) then yield Some( int(c))
+//                    elif Char.IsPunctuation(c) then yield None }
 

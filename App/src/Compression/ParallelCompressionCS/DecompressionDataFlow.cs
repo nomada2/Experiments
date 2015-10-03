@@ -55,6 +55,8 @@ namespace ParallelCompressionCS
             compressor.Completion.ContinueWith(task => writer.Complete());
 
 
+
+
             byte[] size = new byte[sizeof(long)];
             await inputStream.ReadAsync(size, 0, size.Length);
             // convert the size to number

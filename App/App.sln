@@ -96,6 +96,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Helpers", "src\Concurrency\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProvidersFun", "src\TypeProvidersFun\TypeProvidersFun.fsproj", "{200AB498-7469-4F22-BAD6-87E48142F402}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "xUnitTesting", "xUnitTesting\xUnitTesting.fsproj", "{A0327412-B6FC-446C-A6D8-514116ADA372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -466,6 +468,18 @@ Global
 		{200AB498-7469-4F22-BAD6-87E48142F402}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{200AB498-7469-4F22-BAD6-87E48142F402}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{200AB498-7469-4F22-BAD6-87E48142F402}.Release|x86.ActiveCfg = Release|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Debug|x86.Build.0 = Debug|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Release|x86.ActiveCfg = Release|Any CPU
+		{A0327412-B6FC-446C-A6D8-514116ADA372}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

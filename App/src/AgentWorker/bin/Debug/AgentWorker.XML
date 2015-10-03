@@ -2,12 +2,6 @@
 <doc>
 <assembly><name>AgentWorker</name></assembly>
 <members>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="P:BlockingAgent.BlockingQueueAgent`1.Count">
 <summary>
  Returns the number of items in the queue (immediately)
@@ -28,9 +22,6 @@
  will block until some items are removed.
 </summary>
 </member>
-<member name="">
-
-</member>
 <member name="T:BlockingAgent.BlockingQueueAgent`1">
  <summary> Agent that implements an asynchronous blocking queue. </summary>
  <remarks>
@@ -39,12 +30,6 @@
    the queue is empty, the caller will be (asynchronously) blocked
    unitl an item is available.
  </remarks>
-</member>
-<member name="">
-
-</member>
-<member name="">
-
 </member>
 <member name="T:BlockingAgent.BlockingAgentMessage`1">
 <summary>
@@ -56,85 +41,16 @@
  A convenience type alias for &apos;MailboxProcessor&lt;T&gt;&apos; type
 </summary>
 </member>
-<member name="T:BlockingAgent">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="T:Program.ThrottlingAgentMessage`1">
 <summary>
  Message type used by the agent - contains queueing 
  of work items and notification of completion 
 </summary>
 </member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="M:Program.getItem">
 <summary>
  Queue the specified asynchronous workflow for processing
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="T:Program">
-
 </member>
 </members>
 </doc>

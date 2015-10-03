@@ -2,5 +2,11 @@
 <doc>
 <assembly><name>App</name></assembly>
 <members>
+<member name="T:Program.ThrottlingAgentMessage">
+<summary>
+ Message type used by the agent - contains queueing
+ of work items and notification of completion
+</summary>
+</member>
 </members>
 </doc>

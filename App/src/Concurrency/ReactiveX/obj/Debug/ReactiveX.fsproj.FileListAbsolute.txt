@@ -29,8 +29,5 @@ C:\Git\Experiments\App\src\Concurrency\ReactiveX\bin\Debug\ReactiveX.exe
 C:\Git\Experiments\App\src\Concurrency\ReactiveX\bin\Debug\ReactiveX.pdb
 C:\Git\Experiments\App\src\Concurrency\ReactiveX\bin\Debug\FSharp.Core.dll
 C:\Git\Experiments\App\src\Concurrency\ReactiveX\bin\Debug\FSharp.Core.xml
-C:\Git\Experiments\App\src\Concurrency\ReactiveX\bin\Debug\System.Reactive.Core.xml
-C:\Git\Experiments\App\src\Concurrency\ReactiveX\bin\Debug\System.Reactive.Interfaces.xml
-C:\Git\Experiments\App\src\Concurrency\ReactiveX\bin\Debug\System.Reactive.Linq.xml
 C:\Git\Experiments\App\src\Concurrency\ReactiveX\obj\Debug\ReactiveX.exe
 C:\Git\Experiments\App\src\Concurrency\ReactiveX\obj\Debug\ReactiveX.pdb
