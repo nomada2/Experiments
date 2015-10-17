@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{cc60e576-ec5b-4560-a78f-63337bdaadfc}</ProjectGuid>
+    <ProjectGuid>{CC60E576-EC5B-4560-A78F-63337BDAADFC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>DAG</RootNamespace>
     <AssemblyName>DAG</AssemblyName>

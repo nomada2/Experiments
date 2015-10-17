@@ -3,9 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{ede1812b-5a62-410a-9553-02499cf29317}</ProjectGuid>
+    <ProjectGuid>{EDE1812B-5A62-410A-9553-02499CF29317}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>FSharp.AsyncExtensions</RootNamespace>
     <AssemblyName>FSharp.AsyncExtensions</AssemblyName>
@@ -16,7 +14,6 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <Tailcalls>false</Tailcalls>
     <OutputPath>bin\Debug\</OutputPath>
@@ -24,6 +21,7 @@
     <WarningLevel>3</WarningLevel>
     <DocumentationFile>bin\Debug\FSharp.AsyncExtensions.XML</DocumentationFile>
     <OtherFlags>--sig:sig.fsi</OtherFlags>
+    <PostBuildEvent>copy $(ProjectDir)$(OutDir)\FSharp.AsyncExtensions.* $(ProjectDir)..\bin</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,6 +31,10 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <DocumentationFile>bin\Release\FSharp.AsyncExtensions.XML</DocumentationFile>
+    <PostBuildEvent>copy $(ProjectDir)$(OutDir)\FSharp.AsyncExtensions.* $(ProjectDir)..\bin\release
+nuget pack $(ProjectDir)..\bin\release\FSharp.AsyncExtensions.dll.nuspec
+</PostBuildEvent>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '11.0'">
@@ -47,14 +49,6 @@
     </Otherwise>
   </Choose>
   <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PostBuildEvent>copy $(ProjectDir)$(OutDir)\FSharp.AsyncExtensions.* $(ProjectDir)..\bin</PostBuildEvent>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PostBuildEvent>copy $(ProjectDir)$(OutDir)\FSharp.AsyncExtensions.* $(ProjectDir)..\bin\release
-nuget pack $(ProjectDir)..\bin\release\FSharp.AsyncExtensions.dll.nuspec
-</PostBuildEvent>
-  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Agents\Agent.fs" />
     <Compile Include="Agents\AutoCancelAgent.fs" />
@@ -68,13 +62,13 @@ nuget pack $(ProjectDir)..\bin\release\FSharp.AsyncExtensions.dll.nuspec
     <Compile Include="IO.fs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <Private>True</Private>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="FSharp.Core">
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	     Other similar extension points exist, see Microsoft.Common.targets.

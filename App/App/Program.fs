@@ -101,10 +101,62 @@ type internal ThrottlingAgentMessage =
   | Completed
   | Work of Async<unit>
    
+open System.Net
+open System.IO
 
 [<EntryPoint>]
 let main argv = 
     printfn "%A" argv
+
+    let getLength filePath =  
+
+          let callBack (callBack:IAsyncResult) = 
+              let fs = callBack.AsyncState :> FileStream
+              fs.EndRead(callBack)
+
+          let fs = File.OpenRead(filePath)
+          let data = Array.zeroCreate<byte> fs.Length
+          fs.BeginRead(data, 0, data.Length, callBack, fs)
+
+
+
+    let (<->) (m:'a MailboxProcessor) msg = m.PostAndReply(fun replyChannel -> msg replyChannel)
+ 
+    type 'a BufferMessage = Put of 'a * unit AsyncReplyChannel 
+                          | Get of 'a AsyncReplyChannel 
+                          | Stop of unit AsyncReplyChannel
+     
+    type 'a BoundedBuffer(N:int) =
+      
+      let buffer =     
+        MailboxProcessor.Start(fun inbox ->
+          let buf:'a array = Array.zeroCreate N
+          let rec loop in' out n =
+            async { let! msg = inbox.Receive()
+                    match msg with
+                    | Put (x, replyChannel) when n < N ->
+                        Array.set buf in' x
+                        replyChannel.Reply ()
+                        return! loop ((in' + 1) % N) out (n + 1)
+     
+                    | Get replyChannel when n > 0 ->
+                        let r = Array.get buf out
+                        replyChannel.Reply r
+                        return! loop in' ((out + 1) % N) (n - 1)
+     
+                    | Stop replyChannel -> replyChannel.Reply(); return () }
+          loop 0 0 0)
+          
+      member this.Put(x:'a) = buffer <-> curry Put x
+      member this.Get() = buffer <-> Get
+      member this.Stop() = buffer <-> Stop
+          
+    let buffer = new int BoundedBuffer(42)
+    buffer.Put 42
+    printfn "%d" (buffer.Get())
+    buffer.Stop()
+
+
     System.Console.ReadLine() |> ignore
     0
     
